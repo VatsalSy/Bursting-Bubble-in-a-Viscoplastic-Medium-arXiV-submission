@@ -1,0 +1,11 @@
+# Figures
+Figures/*.eps
+
+# LaTeX temporary files
+*.aux
+*.gz
+*.out
+*.log
+*.blg
+*.bbl
+*.DS_Store

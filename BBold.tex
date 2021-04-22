@@ -1,0 +1,164 @@
+\documentclass{jfm}
+\usepackage[colorlinks,citecolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{epstopdf, epsfig}
+\usepackage{lipsum}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\usepackage{amsmath}
+
+\shorttitle{Bursting Bubble in a Viscoplastic medium}
+\shortauthor{V. Sanjay, M. Jaalal and D. Lohse}
+
+\title{Bursting Bubble in a Viscoplastic medium}
+
+\author{Vatsal Sanjay\aff{1}\corresp{\email{vatsalsanjay@gmail.com}},
+	Maziyar Jalaal\aff{1}
+	\and Detlef Lohse{\aff{1}$^,$\aff{2}}}
+
+\affiliation{\aff{1}Physics of Fluids Group, Max Planck Center for Complex Fluid Dynamics,\\ MESA+ Institute and J.M. Burgers Center for Fluid Dynamics,\\
+	University of Twente, P.O. Box 217, 7500 AE Enschede, the Netherlands
+	\aff{2}Max Planck Institute for Dynamics and Self-Organisation, 37077 Göttingen, Germany}
+
+\usepackage{lineno}
+\linenumbers
+
+
+\begin{document}
+	
+\maketitle
+
+\begin{abstract}
+	
+\end{abstract}
+
+\begin{keywords}
+\end{keywords}
+
+\section{Introduction}\label{sec:introduction}
+% Bursting bubbles everywhere
+The process of the bubble bursting is one of the classically studied phenomena in fluid mechanics because of its ubiquitous presence in nature. For example, it plays a vital role in transporting aromatics from champagne, and pathogens from contaminated water \citep{ghabache2014physics,ghabache2016evaporation}. Furthermore, the process is also responsible for the sea spray formation as a consequence of ejecting myriads of droplets \citep{macintyre1972flow}. Bubbles also play an essential role in magmatic and mud volcanoes. It has been shown that the growth, motion, and burst of the bubbles at the interface of the conduit control the eruption (see \cite{gonnermann2007fluid} for a detailed review on this topic).\\
+% The process
+%% We find this initial shape of the bubble cavity by solving a set of non-linear and coupled Young's Laplace equations (see Appendix A and \cite{lhuissier2012bursting}). 
+In Newtonian liquids, the mechanism of the bubble bursting is controlled by buoyancy, surface tension, and viscosity. First, the air bubble, generated in the liquid bulk, being lighter than the surrounding medium, rises up and reaches the liquid-air interface. It stays there as the thin film between the bubble, and the free surface drains \citep{princen1963shape,toba1959drop}. The thin liquid film then ruptures and results in an open cavity \citep{mason1954bursting}. The cavity collapses, leading to the interaction of the capillary waves \citep{zeff2000singularity}. This collapse may lead to the formation of a Worthington jet, depending on the size of bubbles (Bond number, $Bo$) and viscous effects (Laplace number, $La$). At the end, Rayleigh-Plateau instability results in the formation of droplets \citep{ghabache2014physics,ghabache2016size}.\\
+Another factor that has fuelled these studies is the advancement in the numerical techniques. Earlier works relied on inviscid flow theories using boundary integral methods \citep{boulton1993gas,longuet1995critical}. They missed the underlying mechanism, which depends heavily on the viscous effects of the liquid medium. Developments in the Direct Numerical Simulation (DNS) tools for gas-liquid two-phase flows \citep{tryggvason2011direct, popinet2003gerris, popinet2009accurate} have resulted in studies which take the viscosity of the fluid into account \citep{walls2015jet}.\\
+% Newtonian well understood: explain and refer Appendix B
+For Newtonian liquids, \cite{deike2018dynamics} has provided quantitative cross-validation of the numerical and experimental studies. They have also given a complete quantitative description of the influence of viscosity, gravity, and capillarity on the process, extending the earlier work of \cite{duchemin2002jet}. Despite the apparent contradictions between the arguments of \cite{gordillo2019capillary} and \cite{ganan2017revision}, the phenomena of bursting bubbles is reasonably well understood for Newtonian liquids. We show in Appendix B that our results agree with both of these studies under the conditions where they are valid. This appendix also provides validation for our numerical model for Newtonian liquids. The literature lacks comprehensive research on the influence of liquid pool properties on the bubble bursting process. Notably, the influence of rheological properties on the collapse of bubble cavities can provide a close-up to the understanding of the phenomenon.\\% The lacuna in the literature.
+% What we do here! % for the first time in the history of this classical problem
+In this contribution, for the first time, we study the dynamics of bursting bubbles in a viscoplastic medium. For this study, we use full-scaled detailed numerical simulations. Viscoplastic (also known as yield-stress) fluids flow only if they are sufficiently stressed ($\|\tau_{ij}\| < \tau_y$, where $\|\tau_{ij}\|$ represents the second norm of the Cauchy stress tensor,$\,\tau_{ij}$, and $\tau_y$ is the yield stress). If left alone, these fluids will retain their (deformed or underperformed) state and may move only at very long time scales \citep{barnes1999yield}. Readers can find detailed reviews on yield stress fluids in \cite{bird1983rheology,coussot2014yield,balmforth2014yielding}. \\
+% How do non-Newtonian fluids influence the process.
+Introduction of non-Newtonian fluids can significantly influence the bursting of bubbles. At moderate values of yield stress $\left(\tau_y\right)$, the collapse of the cavity can still lead to the formation of Worthington jet, but the high effective viscosity suppresses the droplet formation. Furthermore, interactions of the capillary waves lead to a non-trivial \textquotedblleft wavy \textquotedblright$\,$yield surface. At high values of yield stress, the unyielded region of the viscoplastic fluid can seize the collapse of this cavity which leads to distinct equilibrium shapes.\\
+% What we want to achieve
+In terms of application, a conceptual understanding of bubble bursting in yield-stress fluids finds its application in the food industries, where the interaction of air bubbles with the free surface of chocolate and mayonnaise can influence their texture \citep{campbell2016bubbles}. This phenomenon is also encountered in several chemical reactors, especially during aerations reactions of waste-treatment \citep{blanch1976non}. Recently, \cite{walls2017quantifying} discussed the possibility of cell damage that might be caused in bioreactors as the bubbles rise to the surface of a cell suspension (non-Newtonian liquid) and pop. Furthermore, bubbles play a pivotal role in many geophysical flows, such as magmatic and mud volcanoes \citep{tran2015bubble}. The present work will also help to understand these process from a purely fundamental fluid mechanics approach \citep{gonnermann2007fluid}.\\
+% Arrangement of the paper
+The paper is organized as follows: \S~2 provides a phenomenological study of the phenomena, \S~3 compares the bubble bursting process in yield-stress fluids to that in Newtonian liquids, \S~4 focusses on the high surface energy equilibrium states that are formed during the bursting process for high yield-stress fluids, \S~4 extends the present study to non-zero $Bo$, and \S~5 concludes the results.
+ 
+\section{Problem statement  \& Methodology}\label{sec:problemDescriptionNmethodology}
+\subsection{Problem Description}\label{sec:PD}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{Schematic.png}}% Images in 100% size
+	\caption{Schematic of the process: selection of one of the phases as the schematic and then explain the different relevant parameter/properties that we study.}
+	\label{fig:Schematic}
+\end{figure}
+\subsection{Non-Dimensional Group}\label{sec:Numbers}
+$$Oh = \frac{\mu}{\sqrt{\rho\sigma R_0}}$$
+$$La = \frac{\rho\sigma R_0}{\mu^2}$$
+$$Bo = \frac{\rho gR_o^2}{\sigma}$$
+$$\tau_y = \frac{\tilde{\tau}R_0}{\sigma}$$
+\lipsum[1]
+\subsection{Mathematical Formulation}
+\begin{equation}
+\hat{\rho}\left(\frac{\partial U_i}{\partial t} + \frac{\partial\left(U_iU_j\right)}{\partial X_j}\right) = -\frac{\partial P}{\partial X_i} + \frac{1}{\sqrt{La}}\frac{\partial}{\partial X_j}\left(\hat{\mu}D_{ij}\right) + \left(\hat{\sigma}\kappa\right)\delta_s\hat{n}_{i} + Bo\hat{g}_i
+\end{equation}
+\begin{equation} \label{Equation::general}
+A (\Psi) = \Psi A_1 + (1-\Psi)A_2 \: \: \:  \forall  \: A \in \{\rho, \mu\}
+\end{equation}
+\begin{equation} \label{Equation::vof}
+\frac{\partial \Psi}{\partial t} + \frac{\partial(\Psi V_i)}{\partial X_i} = 0
+\end{equation}
+$$D_{11} = \frac{\partial u}{\partial x}$$
+$$D_{12} = \frac{1}{2}\left( \frac{\partial u}{\partial y}+ \frac{\partial v}{\partial x}\right)$$
+$$D_{21} = \frac{1}{2}\left( \frac{\partial u}{\partial y}+ \frac{\partial v}{\partial x}\right)$$
+$$D_{22} = \frac{\partial v}{\partial y}$$
+The second invariant is $D_2=\sqrt{D_{ij}D_{ij}}$ (this is the Frobenius norm)
+$$D_2^2= D_{ij}D_{ij}= D_{11}D_{11} + D_{12}D_{21} + D_{21}D_{12} + D_{22}D_{22}$$
+the equivalent viscosity is
+$$\mu_{eq}= \mu_0\left(\frac{D_2}{\sqrt{2}}\right)^{N-1} + \frac{\tau_y}{\sqrt{2} D_2 }$$
+**Note:** $\|D\| = D_2/\sqrt{2}$.<br/>
+For Bingham Fluid, N = 1:
+$$\mu_{eq}= \mu_0 + \frac{\tau_y}{\sqrt{2} D_2 }$$
+Finally, mu is the min of of $\mu_{eq}$ and a large $\mu_{max}$.
+
+The fluid flows always, it is not a solid, but a very viscous fluid.
+$$ \mu = min\left(\mu_{eq}, \mu_{\mbox{max}}\right) $$
+\section{Results and Discussion}
+\subsection{Phenomenological subsection}
+\begin{figure}
+  \centerline{\includegraphics[width=\linewidth]{FigureTauyVariation.pdf}}% Images in 100% size
+  \caption{Aim is to show the effect of $\tau_y$ on the process of bubble bursting: We will add the yield surface and vorticity (maybe just the yield surface) in these images!}
+\label{fig:TauyVariation}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{FigureBondVariation.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:BoVariation}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{FigureOhVariation.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:OhVariation}
+\end{figure}
+\lipsum[1]
+\subsection{What happens to the energy?}
+Interesting things:
+\begin{enumerate}
+	\item For Newtonian, for $t \to \infty$, surface energy is 0 and all the initial energy goes to viscous dissipation and gravitational potential. 
+	\item For non-Newtonian fluids, initial surface energy goes to plastic and viscous dissipations and final surface (\textbf{non-zero}) energy and gravitational potential energy.
+\end{enumerate}
+\begin{figure}
+\centerline{\includegraphics[width=\linewidth]{EnergyBudget.png}}% Images in 100% size
+\caption{Temporary Caption}
+\label{fig:EnergyBudget}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=0.5\linewidth]{Hmax.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:Hmax}
+\end{figure}
+
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{Regimes-Different.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:RegimeShapes}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{Regime2D.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:Regime2D}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{Regime-3D.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:Regime3D}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{FinalShapes.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:FinalShapes}
+\end{figure}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{FinalShapeDependence.png}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:FinalShapesDep}
+\end{figure}
+\appendix
+\section{}\label{appA}
+\begin{figure}
+	\centerline{\includegraphics[width=\linewidth]{VillermauxComparision}}% Images in 100% size
+	\caption{Temporary Caption}
+	\label{fig:Villermaux}
+\end{figure}
+\bibliographystyle{jfm}
+\bibliography{BurstingBubble}
+\end{document}
