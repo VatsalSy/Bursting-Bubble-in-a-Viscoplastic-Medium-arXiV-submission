@@ -7,5 +7,4 @@ Figures/*.eps
 *.out
 *.log
 *.blg
-*.bbl
 *.DS_Store

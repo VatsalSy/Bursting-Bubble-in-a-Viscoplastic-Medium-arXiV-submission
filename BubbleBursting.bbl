@@ -1,0 +1,359 @@
+\begin{thebibliography}{62}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
+  \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
+  \def\publ#1{#1}\def\arxiv#1{#1}\def\org#1{#1}\def\st#1{\textit{#1}}
+
+\bibitem[Balmforth {\em et~al.\/}(2014)Balmforth, Frigaard \&
+  Ovarlez]{balmforth2014yielding}
+{\sc \au{Balmforth, N.~J.}, \au{Frigaard, I.~A.} \& \au{Ovarlez, G.}} \yr{2014}
+   \at{Yielding to stress: recent developments in viscoplastic fluid
+  mechanics}.  \jt{Annu. Rev. Fluid Mech.}  \bvol{46},  \pg{121--146}.
+
+\bibitem[Bird {\em et~al.\/}(1983)Bird, Dai \& Yarusso]{bird1983rheology}
+{\sc \au{Bird, R.~B.}, \au{Dai, G.~C.} \& \au{Yarusso, B.~J.}} \yr{1983}
+  \at{The rheology and flow of viscoplastic materials}.  \jt{Rev. Chem. Eng.}
+  \bvol{1}~(1),  \pg{1--70}.
+
+\bibitem[Bonn {\em et~al.\/}(2017)Bonn, Denn, Berthier, Divoux \&
+  Manneville]{bonn2017yield}
+{\sc \au{Bonn, D.}, \au{Denn, M.~M.}, \au{Berthier, L.}, \au{Divoux, T.} \&
+  \au{Manneville, S.}} \yr{2017}  \at{Yield stress materials in soft condensed
+  matter}.  \jt{Rev.\ Mod.\ Phys.}  \bvol{89}~(3),  \pg{035005}.
+
+\bibitem[Boulton-Stone \& Blake(1993)]{boulton1993gas}
+{\sc \au{Boulton-Stone, J.~M.} \& \au{Blake, J.~R.}} \yr{1993}  \at{Gas bubbles
+  bursting at a free surface}.  \jt{J. Fluid Mech.}  \bvol{254},
+  \pg{437--466}.
+
+\bibitem[Bourouiba(2021)]{bourouiba2021fluid}
+{\sc \au{Bourouiba, L.}} \yr{2021}  \at{The fluid dynamics of disease
+  transmission}.  \jt{Annu. Rev. Fluid Mech.}  \bvol{53},  \pg{473--508}.
+
+\bibitem[Brackbill {\em et~al.\/}(1992)Brackbill, Kothe \&
+  Zemach]{brackbill1992continuum}
+{\sc \au{Brackbill, J.~U.}, \au{Kothe, D.~B.} \& \au{Zemach, C.}} \yr{1992}
+  \at{A continuum method for modeling surface tension}.  \jt{J. Comput. Phys.}
+  \bvol{100}~(2),  \pg{335--354}.
+
+\bibitem[Coussot(2014)]{coussot2014yield}
+{\sc \au{Coussot, P.}} \yr{2014}  \at{Yield stress fluid flows: A review of
+  experimental data}.  \jt{J. Non-Newton. Fluid Mech.}  \bvol{211},
+  \pg{31--49}.
+
+\bibitem[De~Corato {\em et~al.\/}(2019)De~Corato, Saint-Michel, Makrigiorgos,
+  Dimakopoulos, Tsamopoulos \& Garbin]{de2019oscillations}
+{\sc \au{De~Corato, M.}, \au{Saint-Michel, B.}, \au{Makrigiorgos, G.},
+  \au{Dimakopoulos, Y.}, \au{Tsamopoulos, J.} \& \au{Garbin, V.}} \yr{2019}
+  \at{Oscillations of small bubbles and medium yielding in elastoviscoplastic
+  fluids}.  \jt{Phys. Rev. Fluids}  \bvol{4}~(7),  \pg{073301}.
+
+\bibitem[Deike {\em et~al.\/}(2018)Deike, Ghabache, Liger-Belair, Das, Zaleski,
+  Popinet \& S{\'e}on]{deike2018dynamics}
+{\sc \au{Deike, L.}, \au{Ghabache, E.}, \au{Liger-Belair, G.}, \au{Das, A.~K.},
+  \au{Zaleski, S.}, \au{Popinet, S.} \& \au{S{\'e}on, T.}} \yr{2018}
+  \at{Dynamics of jets produced by bursting bubbles}.  \jt{Phys. Rev. Fluids}
+  \bvol{3}~(1),  \pg{013603}.
+
+\bibitem[Deserno(2004)]{deserno2004notes}
+{\sc \au{Deserno, Markus}} \yr{2004} Notes on differential geometry.
+  \url{https://www.cmu.edu/biolphys/deserno/pdf/diff_geom.pdf} (Last accessed:
+  March 31, 2021).
+
+\bibitem[Dimakopoulos {\em et~al.\/}(2013)Dimakopoulos, Pavlidis \&
+  Tsamopoulos]{dimakopoulos2013steady}
+{\sc \au{Dimakopoulos, Y.}, \au{Pavlidis, M.} \& \au{Tsamopoulos, J.}}
+  \yr{2013}  \at{Steady bubble rise in herschel--bulkley fluids and comparison
+  of predictions via the augmented lagrangian method with those via the
+  papanastasiou model}.  \jt{J. Non-Newton. Fluid Mech.}  \bvol{200},
+  \pg{34--51}.
+
+\bibitem[Dubash \& Frigaard(2004)]{dubash2004conditions}
+{\sc \au{Dubash, N.} \& \au{Frigaard, I.}} \yr{2004}  \at{Conditions for static
+  bubbles in viscoplastic fluids}.  \jt{Phys.\ Fluids}  \bvol{16}~(12),
+  \pg{4319--4330}.
+
+\bibitem[Duchemin {\em et~al.\/}(2002)Duchemin, Popinet, Josserand \&
+  Zaleski]{duchemin2002jet}
+{\sc \au{Duchemin, L.}, \au{Popinet, S.}, \au{Josserand, C.} \& \au{Zaleski,
+  S.}} \yr{2002}  \at{Jet formation in bubbles bursting at a free surface}.
+  \jt{Phys.\ Fluids}  \bvol{14}~(9),  \pg{3000--3008}.
+
+\bibitem[Frigaard \& Nouar(2005)]{frigaard2005usage}
+{\sc \au{Frigaard, I.~A.} \& \au{Nouar, C.}} \yr{2005}  \at{On the usage of
+  viscosity regularisation methods for visco-plastic fluid flow computation}.
+  \jt{J. Non-Newton. Fluid Mech.}  \bvol{127}~(1),  \pg{1--26}.
+
+\bibitem[Ga{\~n}{\'a}n-Calvo(2017)]{ganan2017revision}
+{\sc \au{Ga{\~n}{\'a}n-Calvo, A.~M.}} \yr{2017}  \at{Revision of bubble
+  bursting: Universal scaling laws of top jet drop size and speed}.  \jt{Phys.
+  Rev. Lett.}  \bvol{119}~(20),  \pg{204502}.
+
+\bibitem[Gekle {\em et~al.\/}(2009)Gekle, Gordillo, van~der Meer \&
+  Lohse]{gekle2009high}
+{\sc \au{Gekle, Stephan}, \au{Gordillo, Jos{\'e}~Manuel}, \au{van~der Meer,
+  Devaraj} \& \au{Lohse, Detlef}} \yr{2009}  \at{High-speed jet formation after
+  solid object impact}.  \jt{Phys. Rev. Lett.}  \bvol{102}~(3),  \pg{034502}.
+
+\bibitem[Ghabache {\em et~al.\/}(2014)Ghabache, Antkowiak, Josserand \&
+  S{\'e}on]{ghabache2014physics}
+{\sc \au{Ghabache, E.}, \au{Antkowiak, A.}, \au{Josserand, C.} \& \au{S{\'e}on,
+  T.}} \yr{2014}  \at{On the physics of fizziness: How bubble bursting controls
+  droplets ejection}.  \jt{Phys.\ Fluids}  \bvol{26}~(12),  \pg{121701}.
+
+\bibitem[Ghabache {\em et~al.\/}(2016)Ghabache, Liger-Belair, Antkowiak \&
+  S{\'e}on]{ghabache2016evaporation}
+{\sc \au{Ghabache, E.}, \au{Liger-Belair, G.}, \au{Antkowiak, A.} \&
+  \au{S{\'e}on, T.}} \yr{2016}  \at{Evaporation of droplets in a champagne wine
+  aerosol}.  \jt{Sci. Rep.}  \bvol{6},  \pg{25148}.
+
+\bibitem[Ghabache \& S{\'e}on(2016)]{ghabache2016size}
+{\sc \au{Ghabache, E.} \& \au{S{\'e}on, T.}} \yr{2016}  \at{Size of the top jet
+  drop produced by bubble bursting}.  \jt{Phys. Rev. Fluids}  \bvol{1}~(5),
+  \pg{051901}.
+
+\bibitem[Gonnermann \& Manga(2007)]{gonnermann2007fluid}
+{\sc \au{Gonnermann, H.~M.} \& \au{Manga, M.}} \yr{2007}  \at{The fluid
+  mechanics inside a volcano}.  \jt{Annu. Rev. Fluid Mech.}  \bvol{39},
+  \pg{321--356}.
+
+\bibitem[Gordillo \&
+  Rodr{\'\i}guez-Rodr{\'\i}guez(2019)]{gordillo2019capillary}
+{\sc \au{Gordillo, J.~M.} \& \au{Rodr{\'\i}guez-Rodr{\'\i}guez, J.}} \yr{2019}
+  \at{Capillary waves control the ejection of bubble bursting jets}.  \jt{J.
+  Fluid Mech.}  \bvol{867},  \pg{556--571}.
+
+\bibitem[Jalaal \& Balmforth(2016)]{jalaal2016long}
+{\sc \au{Jalaal, M.} \& \au{Balmforth, N.~J.}} \yr{2016}  \at{Long bubbles in
+  tubes filled with viscoplastic fluid}.  \jt{J. Non-Newton. Fluid Mech.}
+  \bvol{238},  \pg{100--106}.
+
+\bibitem[Jalaal {\em et~al.\/}(2019)Jalaal, Schaarsberg, Visser \&
+  Lohse]{jalaal2019laser}
+{\sc \au{Jalaal, M.}, \au{Schaarsberg, M.~K.}, \au{Visser, C.-W.} \& \au{Lohse,
+  D.}} \yr{2019}  \at{Laser-induced forward transfer of viscoplastic fluids}.
+  \jt{J. Fluid Mech.}  \bvol{880},  \pg{497--513}.
+
+\bibitem[Jalaal {\em et~al.\/}(2021)Jalaal, Stoeber \&
+  Balmforth]{jalaal2021spreading}
+{\sc \au{Jalaal, Maziyar}, \au{Stoeber, Boris} \& \au{Balmforth, Neil~J}}
+  \yr{2021}  \at{Spreading of viscoplastic droplets}.  \jt{J. Fluid Mech.}
+  \bvol{914}.
+
+\bibitem[Krishnan {\em et~al.\/}(2017)Krishnan, Hopfinger \&
+  Puthenveettil]{krishnan2017scaling}
+{\sc \au{Krishnan, S.}, \au{Hopfinger, E.~J.} \& \au{Puthenveettil, B.~A.}}
+  \yr{2017}  \at{On the scaling of jetting from bubble collapse at a liquid
+  surface}.  \jt{J. Fluid Mech.}  \bvol{822},  \pg{791}.
+
+\bibitem[Laborie {\em et~al.\/}(2017)Laborie, Rouyer, Angelescu \&
+  Lorenceau]{laborie2017yield}
+{\sc \au{Laborie, Beno{\^\i}t}, \au{Rouyer, Florence}, \au{Angelescu, Dan~E} \&
+  \au{Lorenceau, Elise}} \yr{2017}  \at{Yield-stress fluid deposition in
+  circular channels}.  \jt{J. Fluid Mech.}  \bvol{818}~(2),  \pg{838--851}.
+
+\bibitem[Landau \& Lifshitz(1987)]{landau2013course}
+{\sc \au{Landau, Lev~Davidovich} \& \au{Lifshitz, Evgenii~Mikhailovich}}
+  \yr{1987} {\em Fluid Mechanics -- Volume 6: Course of Theoretical Physics\/},
+  2nd edn.  \publ{Elsevier}.
+
+\bibitem[Lhuissier \& Villermaux(2012)]{lhuissier2012bursting}
+{\sc \au{Lhuissier, H.} \& \au{Villermaux, E.}} \yr{2012}  \at{Bursting bubble
+  aerosols}.  \jt{J. Fluid Mech.}  \bvol{696},  \pg{5--44}.
+
+\bibitem[Liger-Belair(2012)]{liger2012physics}
+{\sc \au{Liger-Belair, G.}} \yr{2012}  \at{The physics behind the fizz in
+  champagne and sparkling wines}.  \jt{Eur. Phys. J. Spec. Top.}
+  \bvol{201}~(1),  \pg{1--88}.
+
+\bibitem[Liger-Belair {\em et~al.\/}(2008)Liger-Belair, Polidori \&
+  Jeandet]{liger2008recent}
+{\sc \au{Liger-Belair, G.}, \au{Polidori, G.} \& \au{Jeandet, P.}} \yr{2008}
+  \at{Recent advances in the science of champagne bubbles}.  \jt{Chem. Soc.
+  Rev.}  \bvol{37}~(11),  \pg{2490--2511}.
+
+\bibitem[Lohse {\em et~al.\/}(2004)Lohse, Bergmann, Mikkelsen, Zeilstra,
+  van~der Meer, Versluis, van~der Weele, van~der Hoef \&
+  Kuipers]{lohse2004impact}
+{\sc \au{Lohse, D.}, \au{Bergmann, R.}, \au{Mikkelsen, R.}, \au{Zeilstra, C.},
+  \au{van~der Meer, D.}, \au{Versluis, M.}, \au{van~der Weele, K.}, \au{van~der
+  Hoef, M.} \& \au{Kuipers, H.}} \yr{2004}  \at{Impact on soft sand: void
+  collapse and jet formation}.  \jt{Phys. Rev. Lett.}  \bvol{93}~(19),
+  \pg{198003}.
+
+\bibitem[Longuet-Higgins \& Oguz(1995)]{longuet1995critical}
+{\sc \au{Longuet-Higgins, M.~S.} \& \au{Oguz, H.}} \yr{1995}  \at{Critical
+  microjets in collapsing cavities}.  \jt{J. Fluid Mech.}  \bvol{290},
+  \pg{183--201}.
+
+\bibitem[Lopez {\em et~al.\/}(2018)Lopez, Naccache \&
+  de~Souza~Mendes]{lopez2018rising}
+{\sc \au{Lopez, W.~F.}, \au{Naccache, M.~F.} \& \au{de~Souza~Mendes, P.~R.}}
+  \yr{2018}  \at{Rising bubbles in yield stress materials}.  \jt{J. Rheol.}
+  \bvol{62}~(1),  \pg{209--219}.
+
+\bibitem[MacIntyre(1972)]{macintyre1972flow}
+{\sc \au{MacIntyre, F.}} \yr{1972}  \at{Flow patterns in breaking bubbles}.
+  \jt{J. Geophys. Res.}  \bvol{77}~(27),  \pg{5211--5228}.
+
+\bibitem[Magnaudet \& Mercier(2020)]{magnaudet2020particles}
+{\sc \au{Magnaudet, J.} \& \au{Mercier, M.~J.}} \yr{2020}  \at{Particles,
+  drops, and bubbles moving across sharp interfaces and stratified layers}.
+  \jt{Annu. Rev. Fluid Mech.}  \bvol{52},  \pg{61--91}.
+
+\bibitem[Mason(1954)]{mason1954bursting}
+{\sc \au{Mason, B.~J.}} \yr{1954}  \at{Bursting of air bubbles at the surface
+  of sea water}.  \jt{Nature}  \bvol{174}~(4427),  \pg{470}.
+
+\bibitem[Mougin {\em et~al.\/}(2012)Mougin, Magnin \&
+  Piau]{mougin2012significant}
+{\sc \au{Mougin, N.}, \au{Magnin, A.} \& \au{Piau, J.-M.}} \yr{2012}  \at{The
+  significant influence of internal stresses on the dynamics of bubbles in a
+  yield stress fluid}.  \jt{J. Non-Newton. Fluid Mech.}  \bvol{171},
+  \pg{42--55}.
+
+\bibitem[Nelson {\em et~al.\/}(2019)Nelson, Schweizer, Rauzan, Nuzzo, Vermant
+  \& Ewoldt]{nelson2019designing}
+{\sc \au{Nelson, A.~Z.}, \au{Schweizer, K.~S.}, \au{Rauzan, B.~M.}, \au{Nuzzo,
+  R.~G.}, \au{Vermant, J.} \& \au{Ewoldt, R.~H.}} \yr{2019}  \at{Designing and
+  transforming yield-stress fluids}.  \jt{Curr. Opin. Solid State Mater. Sci.}
+  \bvol{23}~(5),  \pg{100758}.
+
+\bibitem[Popinet(2003)]{popinet2003gerris}
+{\sc \au{Popinet, S.}} \yr{2003}  \at{Gerris: a tree-based adaptive solver for
+  the incompressible euler equations in complex geometries}.  \jt{J. Comput.
+  Phys.}  \bvol{190}~(2),  \pg{572--600}.
+
+\bibitem[Popinet(2009)]{popinet2009accurate}
+{\sc \au{Popinet, S.}} \yr{2009}  \at{An accurate adaptive solver for
+  surface-tension-driven interfacial flows}.  \jt{J. Comput. Phys.}
+  \bvol{228}~(16),  \pg{5838--5866}.
+
+\bibitem[Popinet(2015)]{popinet2015quadtree}
+{\sc \au{Popinet, S.}} \yr{2015}  \at{A quadtree-adaptive multigrid solver for
+  the {Serre}--{Green}--{Naghdi} equations}.  \jt{J. Comput. Phys.}
+  \bvol{302},  \pg{336--358}.
+
+\bibitem[Popinet \& collaborators(2013--2021{\natexlab{{\em
+  a\/}}})]{basiliskPopinet}
+{\sc \au{Popinet, S.} \& \au{collaborators}} \yr{2013--2021{\natexlab{{\em
+  a\/}}}} Basilisk c. \url{http://basilisk.fr} (Last accessed: March 31, 2021).
+
+\bibitem[Popinet \& collaborators(2013--2021{\natexlab{{\em
+  b\/}}})]{basiliskPopinet2}
+{\sc \au{Popinet, S.} \& \au{collaborators}} \yr{2013--2021{\natexlab{{\em
+  b\/}}}} Basilisk c: surface tension library.
+  \url{http://basilisk.fr/src/tension.h} (Last accessed: March 31, 2021).
+
+\bibitem[Poulain \& Bourouiba(2018)]{poulain2018biosurfactants}
+{\sc \au{Poulain, S.} \& \au{Bourouiba, L.}} \yr{2018}  \at{Biosurfactants
+  change the thinning of contaminated bubbles at bacteria-laden water
+  interfaces}.  \jt{Phys. Rev. Lett.}  \bvol{121}~(20),  \pg{204502}.
+
+\bibitem[Princen(1963)]{princen1963shape}
+{\sc \au{Princen, H.~M.}} \yr{1963}  \at{Shape of a fluid drop at a
+  liquid-liquid interface}.  \jt{J. Colloid Sci.}  \bvol{18}~(2),
+  \pg{178--195}.
+
+\bibitem[Ram{\'\i}rez-Soto {\em et~al.\/}(2020)Ram{\'\i}rez-Soto, Sanjay,
+  Lohse, Pham \& Vollmer]{ramirez2020lifting}
+{\sc \au{Ram{\'\i}rez-Soto, O.}, \au{Sanjay, V.}, \au{Lohse, D.}, \au{Pham,
+  J.~T.} \& \au{Vollmer, D.}} \yr{2020}  \at{Lifting a sessile oil drop from a
+  superamphiphobic surface with an impacting one}.  \jt{Sci. Adv.}
+  \bvol{6}~(34),  \pg{eaba4330}.
+
+\bibitem[Rauzan {\em et~al.\/}(2018)Rauzan, Nelson, Lehman, Ewoldt \&
+  Nuzzo]{rauzan2018particle}
+{\sc \au{Rauzan, B.~M.}, \au{Nelson, A.~Z.}, \au{Lehman, S.~E.}, \au{Ewoldt,
+  R.~H.} \& \au{Nuzzo, R.~G.}} \yr{2018}  \at{Particle-free emulsions for 3d
+  printing elastomers}.  \jt{Adv. Funct. Mater.}  \bvol{28}~(21),
+  \pg{1707032}.
+
+\bibitem[San~Lee {\em et~al.\/}(2011)San~Lee, Weon, Park, Je, Fezzaa \&
+  Lee]{san2011size}
+{\sc \au{San~Lee, J.}, \au{Weon, B.~M.}, \au{Park, S.~J.}, \au{Je, J.~H},
+  \au{Fezzaa, K.} \& \au{Lee, W.-K.}} \yr{2011}  \at{Size limits the formation
+  of liquid jets during bubble bursting}.  \jt{Nat. Commun.}  \bvol{2}~(1),
+  \pg{1--7}.
+
+\bibitem[Sanjay(2020)]{basiliskVatsal}
+{\sc \au{Sanjay, V.}} \yr{2020} Code repository: Bursting bubble in a
+  viscoplastic medium.
+  \url{https://github.com/VatsalSy/BurstingBubbleInViscoplasticMedium} (Last
+  accessed: March 31, 2021).
+
+\bibitem[Sikorski {\em et~al.\/}(2009)Sikorski, Tabuteau \&
+  de~Bruyn]{sikorski2009motion}
+{\sc \au{Sikorski, D.}, \au{Tabuteau, H.} \& \au{de~Bruyn, J.~R.}} \yr{2009}
+  \at{Motion and shape of bubbles rising through a yield-stress fluid}.  \jt{J.
+  Non-Newton. Fluid Mech.}  \bvol{159}~(1-3),  \pg{10--16}.
+
+\bibitem[Singh \& Das(2019)]{singh2019numerical}
+{\sc \au{Singh, D.} \& \au{Das, A.~K.}} \yr{2019}  \at{Numerical investigation
+  of the collapse of a static bubble at the free surface in the presence of
+  neighbors}.  \jt{Phys. Rev. Fluids}  \bvol{4}~(2),  \pg{023602}.
+
+\bibitem[Singh \& Denn(2008)]{singh2008interacting}
+{\sc \au{Singh, J.~P.} \& \au{Denn, M.~M.}} \yr{2008}  \at{Interacting
+  two-dimensional bubbles and droplets in a yield-stress fluid}.  \jt{Phys.\
+  Fluids}  \bvol{20}~(4),  \pg{040901}.
+
+\bibitem[Sun {\em et~al.\/}(2020)Sun, Pan, Zhang, Zhao, Zhao \&
+  Wang]{sun2020dynamic}
+{\sc \au{Sun, B.}, \au{Pan, S.}, \au{Zhang, J.}, \au{Zhao, X.}, \au{Zhao, Y.}
+  \& \au{Wang, Z.}} \yr{2020}  \at{A dynamic model for predicting the geometry
+  of bubble entrapped in yield stress fluid}.  \jt{Chem. Eng. J.}  \bvol{391},
+  \pg{123569}.
+
+\bibitem[Toba(1959)]{toba1959drop}
+{\sc \au{Toba, Y.}} \yr{1959}  \at{Drop production by bursting of air bubbles
+  on the sea surface (ii) theoretical study on the shape of floating bubbles}.
+  \jt{J. Oceanogr. Soc. Jpn.}  \bvol{15}~(3),  \pg{121--130}.
+
+\bibitem[Tripathi {\em et~al.\/}(2015)Tripathi, Sahu, Karapetsas \&
+  Matar]{tripathi2015bubble}
+{\sc \au{Tripathi, M.~K.}, \au{Sahu, K.~C.}, \au{Karapetsas, G.} \& \au{Matar,
+  O.~K.}} \yr{2015}  \at{Bubble rise dynamics in a viscoplastic material}.
+  \jt{J. Non-Newton. Fluid Mech.}  \bvol{222},  \pg{217--226}.
+
+\bibitem[Tryggvason {\em et~al.\/}(2011)Tryggvason, Scardovelli \&
+  Zaleski]{tryggvason2011direct}
+{\sc \au{Tryggvason, G.}, \au{Scardovelli, R.} \& \au{Zaleski, S.}} \yr{2011}
+  {\em Direct numerical simulations of gas--liquid multiphase flows\/}.
+  \publ{Cambridge University Press}.
+
+\bibitem[Tsamopoulos {\em et~al.\/}(2008)Tsamopoulos, Dimakopoulos, Chatzidai,
+  Karapetsas \& Pavlidis]{tsamopoulos2008steady}
+{\sc \au{Tsamopoulos, J.}, \au{Dimakopoulos, Y.}, \au{Chatzidai, N.},
+  \au{Karapetsas, G.} \& \au{Pavlidis, M.}} \yr{2008}  \at{Steady bubble rise
+  and deformation in newtonian and viscoplastic fluids and conditions for
+  bubble entrapment}.  \jt{J. Fluid Mech.}  \bvol{601},  \pg{123}.
+
+\bibitem[Vignes-Adler(2013)]{vignes2013fizzling}
+{\sc \au{Vignes-Adler, M.}} \yr{2013}  \at{The fizzling foam of champagne}.
+  \jt{Angew. Chem. Int. Ed.}  \bvol{52}~(1),  \pg{187--190}.
+
+\bibitem[Walls {\em et~al.\/}(2015)Walls, Henaux \& Bird]{walls2015jet}
+{\sc \au{Walls, P. L.~L.}, \au{Henaux, L.} \& \au{Bird, J.~C.}} \yr{2015}
+  \at{Jet drops from bursting bubbles: How gravity and viscosity couple to
+  inhibit droplet production}.  \jt{Phys. Rev. E}  \bvol{92}~(2),  \pg{021002}.
+
+\bibitem[Wildeman {\em et~al.\/}(2016)Wildeman, Visser, Sun \&
+  Lohse]{wildeman2016spreading}
+{\sc \au{Wildeman, S.}, \au{Visser, C.~W.}, \au{Sun, C.} \& \au{Lohse, D.}}
+  \yr{2016}  \at{On the spreading of impacting drops}.  \jt{J. Fluid Mech.}
+  \bvol{805},  \pg{636--655}.
+
+\bibitem[Zamankhan {\em et~al.\/}(2018)Zamankhan, Takayama \&
+  Grotberg]{zamankhan2018steady}
+{\sc \au{Zamankhan, P.}, \au{Takayama, S.} \& \au{Grotberg, J.~B.}} \yr{2018}
+  \at{Steady displacement of long gas bubbles in channels and tubes filled by a
+  bingham fluid}.  \jt{Phys. Rev. Fluids}  \bvol{3}~(1),  \pg{013302}.
+
+\bibitem[Zeff {\em et~al.\/}(2000)Zeff, Kleber, Fineberg \&
+  Lathrop]{zeff2000singularity}
+{\sc \au{Zeff, B.~W.}, \au{Kleber, B.}, \au{Fineberg, J.} \& \au{Lathrop,
+  D.~P.}} \yr{2000}  \at{Singularity dynamics in curvature collapse and jet
+  eruption on a fluid surface}.  \jt{Nature}  \bvol{403}~(6768),  \pg{401}.
+
+\end{thebibliography}
